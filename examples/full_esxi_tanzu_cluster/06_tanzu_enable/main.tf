@@ -3,7 +3,7 @@ terraform {
     // Force local binary use, rather than public binary
     namespace-management = {
       version = ">= 0.1"
-      source  = "vmware.com/vcenter/namespace-management"
+      source  = "https://github.com/haferch/terraform-provider-namespace-management/tree/6f8b99f5bbf0fa872fd08972b6bcb213b1746488/namespace_management"
       # Use this for your user terraform scripts (above is for our devs only)
       # source  = "vmware/namespace-management"
     }

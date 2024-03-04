@@ -28,9 +28,9 @@ variable "ephemeral_storage_policy_name" {
 # variable "ephemeral_storage_policy_id" {
 #   type = string
 # }
-variable "default_kubernetes_service_content_library_name" {
-  type = string
-}
+#variable "default_kubernetes_service_content_library_name" {
+ # type = string
+#}
 # variable "default_kubernetes_service_content_library_id" {
 #   type = string
 # }
@@ -76,10 +76,10 @@ variable "master_network_name" {
 # variable "master_network_id" {
 #   type = string
 # }
-variable "master_network_ip_assignment_mode" {
-  type = string
-  default = ""
-}
+v#ariable "master_network_ip_assignment_mode" {
+  #type = string
+  #default = ""
+#}
 variable "master_network_static_gateway_ipv4" {
   type = string
 }
