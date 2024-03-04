@@ -6,8 +6,7 @@ package main
 
 import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/plugin"
-
-	"github.com/hferch/terraform-provider-namespace-management/namespace_management"
+	"github.com/vmware/terraform-provider-namespace-management/namespace_management"
 )
 
 func main() {
