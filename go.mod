@@ -1,4 +1,4 @@
-module github.com/haferch/terraform-provider-namespace-management
+module github.com/haferch/terraform-provider-namespace_management
 
 go 1.19
 
